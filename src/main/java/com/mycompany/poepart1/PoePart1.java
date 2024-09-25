@@ -14,5 +14,11 @@ public class PoePart1 {
         //Object calling 
          Login log = new Login();
          //displayed a welcoming messsage
+         System.out.println("Welcome to easy kanban");
+        //called the methods
+        log.Capture();
+        log.registerUser();
+        log.loginUser();
+        log.returnLoginStatus();
     }
 }

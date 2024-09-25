@@ -4,6 +4,8 @@
  */
 package com.mycompany.poepart1;
 
+import java.util.Scanner;
+
 /**
  *
  * @author RC_Student_lab
