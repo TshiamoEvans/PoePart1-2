@@ -46,3 +46,12 @@ public class Task {
          
          return "";
      }
+    // created a method to calculate the total hours of all the tasks combined, passed on a parameter that is a integer
+     public int returnHours(int hours){
+         //declared and assigned a variable to the parameter
+         int totalhours = hours;
+     
+     
+     return totalhours;
+     } 
+}
