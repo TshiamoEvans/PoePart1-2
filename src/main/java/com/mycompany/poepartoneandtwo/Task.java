@@ -23,3 +23,11 @@ public class Task {
         
         return check;
     }
+public String CreateTaskID(String taskname , int tasknumber , String Developerdetails){
+        
+        String taskid = taskname.substring(0,2) + ":" + tasknumber + ":" + Developerdetails.substring(Developerdetails.length()-3);
+        
+        
+        return taskid.toUpperCase(); 
+        
+    }
